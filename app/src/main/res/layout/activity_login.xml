@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c3e50"
+    tools:context="com.example.adityapattani.gitfit.LoginActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="102dp"
+        android:id="@+id/username"
+        android:textColorHint="#fafafa"
+        android:textColor="#fafafa"
+        android:hint="Username"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="#fafafa"
+        android:textColor="#fafafa"
+        android:ems="10"
+        android:layout_below="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:layout_marginTop="35dp"
+        android:id="@+id/password"
+        android:hint="Password" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#2ecc71"
+        android:layout_marginBottom="48dp"
+        android:id="@+id/login" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e74c3c"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/login"
+        android:id="@+id/register" />
+</RelativeLayout>
